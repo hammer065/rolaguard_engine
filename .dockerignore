@@ -1,0 +1,23 @@
+# to exclude files and directories to be copied to the container
+VERSION
+README.*
+.git
+.gitignore
+Dockerfile
+Dockerfile_local
+.dockerignore
+*.y*l
+*.sql
+env_template
+rabbitDrain.py
+rabbitPublish.py
+LICENSE
+.github
+
+# .gitignore
+*.pyc
+.idea
+*.so
+*.h
+.vscode
+local_tests
